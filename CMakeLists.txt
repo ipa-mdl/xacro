@@ -14,7 +14,7 @@ catkin_package(
 # the package direcory is the share directory
 install(PROGRAMS xacro.py DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 
-install(PROGRAMS scripts/xacro DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+install(PROGRAMS scripts/xacro scripts/xacro1 scripts/xacro2 DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
 if(CATKIN_ENABLE_TESTING)
   ## Add folders to be run by python nosetests

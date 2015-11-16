@@ -53,9 +53,9 @@ sys.path = filter(lambda a: a not in [this_dir, this_dir_cwd], sys.path)
 
 if __name__ == '__main__':
     if '--inorder' in sys.argv:
-        import xacro_jade
+        import xacro2
         sys.path = backup_path # Restore the path
-        xacro_jade.main()
+        xacro2.main()
     else:
         import xacro
         sys.path = backup_path # Restore the path

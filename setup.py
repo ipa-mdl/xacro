@@ -4,7 +4,7 @@ from distutils.core import setup
 from catkin_pkg.python_setup import generate_distutils_setup
 
 d = generate_distutils_setup(
-    packages=['xacro','xacro_jade'],
+    packages=['xacro','xacro1','xacro2'],
     package_dir={'': 'src'}
 )
 
